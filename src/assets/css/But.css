@@ -79,7 +79,7 @@ button{
 .Ope:hover::before{
     width: 100%;
 }
-#mais:hover, #apagar:hover, #vezes:hover, #resu:hover{
+:where(#mais, #apagar, #vezes, #resu):hover{
     font-size: 35px;
 }
 #menos{
