@@ -1,0 +1,17 @@
+#telaNum{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 15px 10px;
+}
+/*Estilizações de cada componente input*/
+#superior{
+    height: 65px;
+    font-size: 70px;
+}
+#inferior{
+    height: 25px;
+    color: white;
+}

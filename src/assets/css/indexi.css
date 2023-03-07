@@ -1,0 +1,47 @@
+/*Css principal*/
+body{
+    background-color: white;
+   background-image: url('./background.svg');
+   background-repeat: no-repeat;
+   background-size: 100vw 100vh;
+}
+#tudo{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+#Calcu{
+    background-color: #060606;
+    width: 360px;
+    height: 470px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+input{
+    display: block;
+    border: unset;
+    margin: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 290px;
+    outline: 0;
+    text-align: right;
+    font-family: monospace;
+    background-color: #24272ce2;
+    color: #68FE9A;
+}
+button{
+    border: unset;
+    margin: 8px;
+}
+#butoes{
+    width: 300px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 245px 45px;
+    grid-template-rows: auto auto;
+}
+
