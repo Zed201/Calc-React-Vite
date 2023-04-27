@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(128, 128, 128, 0.712);
+}
+#tudo{
+    display:flex;
+    flex-direction: column;
+    width: max-content;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+p{
+    margin: 0px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+#hist{
+    margin-top: 0px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 20px;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+}
