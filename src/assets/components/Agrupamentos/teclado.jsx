@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import Butao from "../but"
+import Butao from "../but.jsx"
 import { contexto } from "../../context"
 import "../../css/buts.css"
 function Teclado() {
