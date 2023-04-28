@@ -1,5 +1,6 @@
 //Criação de um contexto para compartilhar diversos dados
 import { createContext, useState } from "react";
+import PropsTypes from "prop-types"
 export const contexto = createContext()
     
 export function Ctx(props) {
@@ -13,5 +14,5 @@ export function Ctx(props) {
     )
 }
 Ctx.propTypes = {
-    children: Element
+    children: PropsTypes.any
 }
