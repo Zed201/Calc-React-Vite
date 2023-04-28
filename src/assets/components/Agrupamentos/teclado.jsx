@@ -25,7 +25,7 @@ function Teclado() {
     return (
         <div id="teclado">
             <div id="tecNumeros">
-                {{/*Botões de Números*/}}
+                {/*Botões de Números*/}
                 <Butao classe="num" entr={1} tx={1}/>
                 <Butao classe="num" entr={2} tx={2}/>
                 <Butao classe="num" entr={3} tx={3}/>
@@ -39,7 +39,7 @@ function Teclado() {
                 <Butao classe="num" entr={0} tx={0} />
             </div>
             <div id="tecOpes">
-                {{/*Botões das Operações*/}}
+                {/*Botões das Operações*/}
                 <button onClick={()=>Apagar()} className="Ope">&lt;</button>
                 <Butao classe="Ope" entr="+" tx="+"/>
                 <Butao classe="Ope" entr="-" tx="-"/>
