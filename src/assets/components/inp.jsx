@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { contexto } from "../context"
-import "../css/inp.css"
+import "../css/Inp.css"
 function Tela() {
     const {valorC, valorB} = useContext(contexto)
     return (
