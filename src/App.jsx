@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react"
 import { contexto } from './assets/context'
 import Tela from "./assets/components/inp.jsx"
-import Teclado from "./assets/components/agrupamentos/teclado.jsx"
+import Teclado from "./assets/components/Agrupamentos/teclado.jsx"
 import "./assets/css/index.css"
 
 function App() {
